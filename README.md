@@ -41,5 +41,6 @@ WHERE v.Status_Entrega = 'atrasado'
 GROUP BY 
     c.Estado, 
     p.Categoria;
+```
 
 ## (Utilizei SELECT, INNER JOIN para unificar tabelas de dimensões/fatos, a cláusula WHERE para filtrar as entregas com gargalo e funções de agregação com GROUP BY).
